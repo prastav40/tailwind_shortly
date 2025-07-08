@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.button_upper{
+    @apply hover:opacity-50 transition duration-500 px-10 py-4 bg-cyan-600  border-cyan-600 rounded-full text-2xl text-white font-bold;
+}
+
+.cross_f{
+    @apply translate-y-[7px] -rotate-45
+}
+
+.cross_l{
+    @apply -translate-y-[8px] rotate-45 
+}
+
+.cross_m{
+    @apply invisible
+}
+.after_click{
+    @apply opacity-0 w-full h-full
+}
+.b_after_click{
+    @apply bg-purple-950 rounded-2xl p-4
+}
+
