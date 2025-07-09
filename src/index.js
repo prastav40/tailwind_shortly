@@ -11,4 +11,5 @@ document.getElementById("cross").addEventListener("click",()=>{
     console.log(window.innerWidth)
     
     document.querySelector(".clicked").classList.toggle("invisible")
+
 })
